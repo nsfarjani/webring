@@ -1,0 +1,127 @@
+@font-face {
+    font-family: HK-Gro-Bla;
+    src: url(Fonts/HKGrotesk-Black.otf);
+}
+
+@font-face {
+    font-family: HK-Gro-Reg;
+    src: url(Fonts/HKGrotesk-Regular.otf);
+}
+
+
+
+h1 {
+/*     font-family: HK-Gro-Bla; */
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #96B428;
+}
+
+h2 {
+/*     font-family: HK-Gro-Bla; */
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #96B428;
+    line-height: 1vh;
+    }
+
+h3 {
+    font-family: HK-Gro-Reg;
+    color :#96B428;
+    }   
+
+
+
+.html,body {
+    background: #BBD851;
+    height: 100vh;
+}
+
+.container-1 {
+    display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr);
+      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr);
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 10px;
+      row-gap: 10px;
+  width: 80vw;
+  height: 95vh;
+  margin: auto;
+  justify-content: center;
+}
+
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.section-1 {
+    background: #96B428;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 0px;
+    background: linear-gradient(-135deg, transparent 1.5em, #96B428 0) no-repeat;
+    }
+
+
+.section-2 {
+    background: #96B428;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(-135deg, transparent 1.5em, #96B428 0) no-repeat;
+}
+
+.section-3 {
+    background: #96B428;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(-135deg, transparent 1.5em, #96B428 0) no-repeat;
+}
+
+
+
+a:link {
+    text-decoration: none;
+  }
+  
+h1 a:visited {
+    text-decoration: none;
+  }
+
+h3 a:link {
+    text-decoration: none;
+  }
+  
+h3 a:visited {
+    text-decoration: none;
+    color: #BBD851;
+  }
+
+
+
+h1:hover {
+    color: #000000;
+}
+
+h2:hover {
+    color: #BBD851;
+}
+
+
+
+/* .clear {
+    clear:both
+    } */
