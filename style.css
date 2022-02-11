@@ -84,9 +84,9 @@ h3 {
 
 .section-3 {
     background: #96B428;
-    display: flex;
+/*     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
     margin: auto;
     background: linear-gradient(-135deg, transparent 1.5em, #96B428 0) no-repeat;
 }
