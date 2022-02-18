@@ -28,16 +28,59 @@ h2 {
     }
 
 h3 {
-    font-family: HK-Gro-Reg;
-    color :#96B428;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #96B428;
+    line-height: 0.5vw;
     }   
+
+h4 {
+/*     font-family: HK-Gro-Bla; */
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #BBD851;
+}
 
 
 
 .html,body {
     background: #BBD851;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #96B428;
+}
+
+ul {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 
+}
+
+.navigation {
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 2%;
+
+}
+
 
 .container-1 {
     display: -ms-grid;
@@ -58,8 +101,11 @@ h3 {
 
 .name {
     display: flex;
+    height: 42.5vh;
     justify-content: center;
-    text-align: left;
+    text-align: l;
+    margin: auto;
+    align-items: center;
 }
 
 .section-1 {
@@ -113,11 +159,19 @@ h3 a:visited {
 
 
 h1:hover {
-    color: #000000;
+    color: black;
 }
 
 h2:hover {
     color: #BBD851;
+}
+
+h3:hover {
+    color: black;
+}
+
+h4:hover {
+    color: black;
 }
 
 
@@ -125,3 +179,11 @@ h2:hover {
 /* .clear {
     clear:both
     } */
+
+.list {
+  text-align: right;
+}
+
+#list-2 {
+  text-align: left;
+}
